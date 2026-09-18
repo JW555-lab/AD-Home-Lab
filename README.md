@@ -83,9 +83,9 @@ Welcome to my walkthrough on building an Active Directory domain from the ground
 
 Challenges & Troubleshooting
 
-The biggest obstacle I ran into was installing Windows Server. I kept getting a recurring license terms error during setup, which I diagnosed methodically rather than just redownloading and hoping, verifying the ISO's integrity first, then isolating the problem to VirtualBox's unattended install feature rather than the install media itself.
+The biggest obstacle I ran into was installing Windows Server. I kept getting a recurring license terms error during setup, which I diagnosed rather than just redownloading and hoping, verifying the ISO's integrity first, then isolating the problem to VirtualBox's unattended install feature rather than the install media itself.
 
-SConfig's static IP option also silently failed to apply more than once. I caught this by checking the actual state with ipconfig rather than trusting the menu's confirmation, then resolved it by setting the address directly through PowerShell.
+SConfig's static IP option also failed to apply more than once. I caught this by checking the actual state with ipconfig rather than trusting the menu's confirmation, then resolved it by setting the address directly through PowerShell.
 
 Next Steps
 - Join Client01 to the domain
