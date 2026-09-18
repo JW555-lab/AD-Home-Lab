@@ -1,7 +1,7 @@
 # AD-Home-Lab
 Active-Directory, Windows-Server, PowerShell, VirtualBox, Cybersecurity
 
-# Building an Active Directory Domain Controller From Scratch
+# Building An Active Directory Domain Controller From Scratch
 
 In this tutorial, I build a Windows Server 2022 Active Directory environment from the ground up
 
